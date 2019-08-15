@@ -3,7 +3,7 @@ const http = require('http');
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
     response.end("Hello World!");
-    response.end("Hello World! Jenkin + Git integration");
+    response.end("Hello World! Jenkin + Git + Sonarqube integration");
 });
 
 const port = process.env.PORT || 1337;
